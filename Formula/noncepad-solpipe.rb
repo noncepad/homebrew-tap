@@ -7,7 +7,10 @@ class NoncepadSolpipe < Formula
 
   if Hardware::CPU.intel?
     url "https://noncepad.com/dev/nightly/macos/intel/solpipe.tar.gz"
-    sha256 "ee25fad175248931cd5ef1e1db507e68247956306974b2e0ab900ae8fd321512"
+    sha256 "46ffa6aa562efb753907f902add572764ab8efbf921f3decc047c9a482053bbf"
+  elsif Hardware::CPU.arm?
+    url "https://noncepad.com/dev/nightly/macos/arm/solpipe.tar.gz"
+    sha256 "98e007da02919a2bba039148f40d5c91502ffe5d4dd20204c298681793ca2931"
   end
     
   def install
