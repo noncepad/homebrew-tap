@@ -5,12 +5,15 @@ class NoncepadSolpipe < Formula
   license "PRIVATE"
 
 
-  if Hardware::CPU.intel?
-    url "https://noncepad.com/dev/nightly/macos/intel/solpipe.tar.gz"
-    sha256 "46ffa6aa562efb753907f902add572764ab8efbf921f3decc047c9a482053bbf"
-  elsif Hardware::CPU.arm?
-    url "https://noncepad.com/dev/nightly/macos/arm/solpipe.tar.gz"
-    sha256 "98e007da02919a2bba039148f40d5c91502ffe5d4dd20204c298681793ca2931"
+  on_macos do
+    on_intel do
+      url "https://noncepad.com/dev/nightly/macos/intel/solpipe.tar.gz"
+      sha256 "8a93e690c472f17a5f248d709c939afafe7005ffc4b18b2e2de216a7ebe3ee86"
+    end
+    on_arm do
+      url "https://noncepad.com/dev/nightly/macos/arm/solpipe.tar.gz"
+      sha256 "faceb88d7e1e2aec75adb1dc769321bb1749bd81f8c693f548505e8f596c4a53"
+    end
   end
     
   def install
