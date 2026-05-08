@@ -8,11 +8,11 @@ class NoncepadSolpipe < Formula
   on_macos do
     on_intel do
       url "https://noncepad.com/dev/nightly/macos/intel/solpipe.tar.gz"
-      sha256 "2fc9010c1d3d3888c0867544da669ca922002470e8b7b054323988a3366311d1"
+      sha256 "298b4cfb801b6ccbf134db9b0a7b948fa4bf9092b035c238ca886003a13a3f90"
     end
     on_arm do
       url "https://noncepad.com/dev/nightly/macos/arm/solpipe.tar.gz"
-      sha256 "e22ed19c69d6a27b58294fa38f005a5f42f8c6b20220e15214543b7dfe896331"
+      sha256 "c0fdbe0df5a87463b1adff54f673fb717c2498d579318e85625ea4b993d46be5"
     end
   end
     
