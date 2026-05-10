@@ -1,5 +1,5 @@
 class NoncepadSolpipe < Formula
-  desc "Solpipe and Safejar command line utilities"
+  desc "Solpipe and Safejar Command Line Utilities"
   homepage "https://solpipe.io"
   version "0.4.928"
   license "PRIVATE"
