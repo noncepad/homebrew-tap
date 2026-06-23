@@ -1,18 +1,18 @@
 class NoncepadSolpipe < Formula
   desc "Solpipe and Safejar Command Line Utilities"
   homepage "https://solpipe.io"
-  version "0.4.1023"
+  version "0.4.1033"
   license "PRIVATE"
 
 
   on_macos do
     on_intel do
       url "https://noncepad.com/dev/nightly/macos/intel/solpipe.tar.gz"
-      sha256 "e20a62839f1dad9595e38313072d226d4a62a89e5fc9df0efd7851b2d50ebbec"
+      sha256 "dce3373cc34cca121c517884782bcc6d12aa7624dbcfd555cf3d7f2aae570dc8"
     end
     on_arm do
       url "https://noncepad.com/dev/nightly/macos/arm/solpipe.tar.gz"
-      sha256 "cb6c75590527024a4665182e2b266b448dd20b87564940f8794a8a7682753eec"
+      sha256 "afbcf44c97b6f7df3546ff7813a03ee59922f8746e19a89182c2eb9beb3b5706"
     end
   end
     
